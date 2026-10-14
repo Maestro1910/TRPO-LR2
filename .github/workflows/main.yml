@@ -26,3 +26,6 @@ jobs:
 
       - name: Run application
         run: python main.py
+
+      - name: Run unit tests (pytest)
+        run: python -m pytest -v
