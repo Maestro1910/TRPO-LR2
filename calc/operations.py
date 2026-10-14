@@ -29,3 +29,8 @@ def div(a, b):
 def power(a, n):
     """Return a raised to the power n."""
     return a ** n
+
+
+def mod(a, b):
+    """Return the remainder of a divided by b."""
+    return a % b

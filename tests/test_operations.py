@@ -1,6 +1,6 @@
 import pytest
 
-from calc import add, div, mul, power, sub
+from calc import add, div, mod, mul, power, sub
 
 
 def test_add():
@@ -30,3 +30,7 @@ def test_power():
 
 def test_power_zero():
     assert power(5, 0) == 1
+
+
+def test_mod():
+    assert mod(17, 5) == 2

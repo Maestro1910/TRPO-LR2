@@ -1,4 +1,7 @@
-﻿# Changelog
+# Changelog
+
+## 1.2.0
+- Added `mod(a, b)` function and unit test.
 
 ## 1.1.0
 - Added `power(a, n)` function and unit tests for it.
