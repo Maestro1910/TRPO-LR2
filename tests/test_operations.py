@@ -1,6 +1,6 @@
 import pytest
 
-from calc import add, div, mul, sub
+from calc import add, div, mul, power, sub
 
 
 def test_add():
@@ -22,3 +22,7 @@ def test_div():
 def test_div_by_zero():
     with pytest.raises(ZeroDivisionError):
         div(1, 0)
+
+
+def test_power():
+    assert power(2, 10) == 1024
