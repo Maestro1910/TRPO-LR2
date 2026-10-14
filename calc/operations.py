@@ -24,3 +24,8 @@ def div(a, b):
     if b == 0:
         raise ZeroDivisionError("division by zero")
     return a / b
+
+
+def power(a, n):
+    """Return a raised to the power n."""
+    return a ** n
