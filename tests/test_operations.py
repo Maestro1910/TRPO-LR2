@@ -26,3 +26,7 @@ def test_div_by_zero():
 
 def test_power():
     assert power(2, 10) == 1024
+
+
+def test_power_zero():
+    assert power(5, 0) == 1
