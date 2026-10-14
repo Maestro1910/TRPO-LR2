@@ -1,4 +1,4 @@
-from calc import __version__, add, div, mul, sub
+from calc import __version__, add, div, mul, power, sub
 
 
 def main():
@@ -7,6 +7,7 @@ def main():
     print("7 - 4 =", sub(7, 4))
     print("6 * 7 =", mul(6, 7))
     print("10 / 4 =", div(10, 4))
+    print("2 ** 8 =", power(2, 8))
 
 
 if __name__ == "__main__":

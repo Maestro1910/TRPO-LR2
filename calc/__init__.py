@@ -2,5 +2,5 @@
 
 from calc.operations import add, div, mul, power, sub
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 __all__ = ["add", "sub", "mul", "div", "power"]
