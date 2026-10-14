@@ -1,0 +1,6 @@
+"""Calc: a small calculator library (lab work 2, CI/CD)."""
+
+from calc.operations import add, div, mul, sub
+
+__version__ = "1.0.0"
+__all__ = ["add", "sub", "mul", "div"]
